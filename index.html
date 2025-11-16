@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Coffe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="topo">
+    <img src="imagens/logo.jpg" alt="Logo Black Coffe" class="logo-header">
+    <nav class="menu">
+      <ul>
+        <li><a href="sobre_nos.html">Sobre Nós</a></li>
+        <li><a href="cardapio.php">Cardápio</a></li>
+        <li><a href="carrinho.php">Carrinho</a></li>
+        <li><a href="login.php">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main>
+
+    <h2>
+      Bem vindo a Black Coffe, sua fonte de cafés deliciosos, direto de quem ama fazer um bom Café,
+      para quem ama tomar um bom café.
+    </h2>
+
+    <!-- Texto sobre café -->
+    <section class="cafe-com-texto">
+      <div class="cafe-com-texto">
+        <p>
+          Selecionamos grãos das melhores origens, cultivados em altitudes ideais, por produtores locais
+          que compartilham nossa paixão por qualidade e sustentabilidade. Mais do que servir café,
+          oferecemos uma experiência. Cada detalhe, da escolha dos grãos ao atendimento acolhedor,
+          é pensado para que você sinta o cuidado e a dedicação em cada gole.
+        </p>
+      </div>
+    </section>
+
+    <!-- Galeria de imagens -->
+    <div class="galeria-cafe-com-texto">
+      <img src="imagens/xicara.jpg" alt="Café expresso" class="img-sobre">
+      <img src="imagens/cafe_au_latte.jpg" alt="Café au latte" class="img-sobre">
+      <img src="imagens/macchiato.jpg" alt="Macchiato" class="img-sobre">
+      <img src="imagens/americano.jpg" alt="Café americano" class="img-sobre">
+      <img src="imagens/caputtino.jpg" alt="Capuccino" class="img-sobre">
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>
+      <a href="https://www.instagram.com/seuusuario" target="_blank">
+        <i class="fab fa-instagram" style="margin-right:8px;"></i>Black Coffe
+      </a>
+    </p>
+    <p>
+      <a href="https://wa.me/5511999999999" target="_blank">
+        <i class="fab fa-whatsapp"></i> +55(11)99999-9999
+      </a>
+    </p>
+    <p>
+      <i class="fas fa-phone-alt"></i>
+      <strong>Telefone: +55(11)99999-9999 ou +55(11)3999-9999</strong>
+    </p>
+    <p class="dev">
+      ©2025 Carlos Alberto Alves Queiroz Filho - Todos os direitos reservados.
+    </p>
+
+    <!-- Newsletter -->
+    <div class="newsletter">
+      <form action="cadastro-newsletter.php" method="POST">
+        <label for="email">newsletter:</label>
+        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+        <button type="submit">Ok</button>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
+
