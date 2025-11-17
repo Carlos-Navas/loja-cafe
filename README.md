@@ -33,24 +33,9 @@ Vá em Importar → selecione o arquivo banco.sql → clique em Executar
 3. Configure a conexão com o banco
 Edite o arquivo includes/conexao.php com suas credenciais:
 
-php
-<?php
-$host = 'localhost';
-$usuario = 'root';
-$senha = '';
-$banco = 'lojacafe';
-
-$conn = new mysqli($host, $usuario, $senha, $banco);
-
-if ($conn->connect_error) {
-    die("Falha na conexão: " . $conn->connect_error);
-}
-?>
 
 🧪 Testando o Projeto
 Inicie o servidor local (ex: XAMPP ou WAMP)
-
-Acesse http://localhost/loja-cafe/index.php no navegador
 
 Teste funcionalidades como adicionar ao carrinho, finalizar pedidos e newsletter
 
