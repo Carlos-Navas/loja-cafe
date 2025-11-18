@@ -23,15 +23,20 @@ Código
 bash
 git clone https://github.com/seu-usuario/loja-cafe.git
 cd loja-cafe
-2. Importe o banco de dados
-Acesse o phpMyAdmin
 
-Crie um banco de dados chamado lojacafe
+1-Instale o Xampp;
 
-Vá em Importar → selecione o arquivo banco.sql → clique em Executar
+2- Crie uma pasta dentro da pasta Xampp/ htdocs/loja-cafe;
 
-3. Configure a conexão com o banco
-Edite o arquivo includes/conexao.php com suas credenciais:
+3- Importe o banco de dados;
+
+4- Acesse o phpMyAdmin;
+
+5- Vá em Importar → selecione o arquivo banco.sql → clique em Executar;
+
+6- Configure a conexão com o banco;
+
+7- Edite o arquivo includes/conexao.php com suas credenciais.
 
 
 🧪 Testando o Projeto
